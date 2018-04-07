@@ -13,8 +13,8 @@ price_path = 'set_prices/'
 
 cur_fn = 'Card Name_Set_Frequency Ratio.csv'
 pp_fn = 'Play Points_Frequency Ratio.csv'
-chest_fn = ('Slot_Curated_Modern Rare-Mythic_Play Points_'
-            'Standard Commons-Uncommons.csv')
+chest_fn = ('Slot_Curated_Modern Rare-Mythic_Avatar_'
+            'Play Points_Standard Common-Uncommon.csv')
 
 chest_card_out_fn = 'chest_card_prices.csv'
 chest_val_out_fn = 'chest_value.csv'
