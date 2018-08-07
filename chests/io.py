@@ -11,15 +11,15 @@ price_base_url = 'https://www.mtggoldfish.com/index/{}#online'
 pack_path = 'pack_ratios/'
 price_path = 'set_prices/'
 
-cur_fn = 'Card Name_Set_Frequency Ratio.csv'
-pp_fn = 'Play Points_Frequency Ratio.csv'
-chest_fn = ('Slot_Curated_Modern Rare-Mythic_Avatar_'
-            'Play Points_Standard Common-Uncommon.csv')
+cur_fn = 'Card_Set_Relative Drop Rate.csv'
+pp_fn = 'Play Points_Relative Drop Rate.csv'
+chest_fn = ('Relative Drop Rate_Curated_Modern Rare-Mythic Rare_Treasure Chest'
+            ' Avatar_Play Points_Battlebond_Standard Common-Uncommon.csv')
 
 chest_card_out_fn = 'chest_card_prices.csv'
 chest_val_out_fn = 'chest_value.csv'
 
-freq_col = 'Frequency Ratio'
+freq_col = 'Relative Drop Rate'
 pp_col = 'Play Points'
 price_col = 'Price'
 ppo_col = 'Price Per Open'
